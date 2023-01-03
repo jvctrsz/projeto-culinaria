@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 header{
@@ -51,7 +55,7 @@ main h2{
     padding: 20px 50px 80px;
 }
 
-a{
+#btn a{
     font-size: 1.2em;
     text-decoration: none;
     padding: 10px;
@@ -78,6 +82,11 @@ footer{
     margin-top: 40px;
 }
 
+footer a{
+    text-decoration: underline;
+    color: #fff;
+}
+
 footer p {
     color: #fff;
     margin: auto;
@@ -88,5 +97,17 @@ footer p {
 section:hover{
     border-radius: 20px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
 
+#ingredients-container{
+    cursor: url(./images/cursor_ingredientes.png), default;
+}
+
+#preparation-container{
+    cursor: url(./images/cursor_preparo.png), default;
+}
+
+#instructions-container{
+    cursor:url(./images/cursor_intrucoes.png), default;
+}
